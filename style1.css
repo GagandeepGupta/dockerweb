@@ -1,0 +1,40 @@
+body{
+    max-height: 100%;
+    max-width: 100%;
+    background-color: lightsteelblue;
+}
+
+.menuBar{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin: auto;    
+    
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    background-color: red;
+}
+
+.mainBody{
+    float:left;
+    width: 70%;
+    height:570px;
+    background-color: lightcoral;
+    display: block;
+    font-size: 30px;
+}
+.sideBar{
+    float: left;
+    height:570px;
+    width: 30%;
+    background-color: blanchedalmond;
+}
+.detailDescriptionOfAuthor{
+    float:none;
+    background-color: black;
+    color:white;
+}
